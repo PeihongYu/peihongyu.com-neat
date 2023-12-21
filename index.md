@@ -2,7 +2,7 @@
 layout: homepage
 ---
 
-## About Me
+## Hi ( •̀ ◡ •́ )✧
 
 I am a PhD student in [Computer Science at University of Maryland, College Park]((https://www.cs.umd.edu/)), working with [Prof. Pratap Tokekar](https://tokekar.com/). My current research interset mainly focuses on Robotics and Reinforcement Learning.
 
