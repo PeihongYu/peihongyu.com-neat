@@ -20,6 +20,8 @@ Prior to that, I was a master's student in [School of Information Science and Te
 - **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
 - **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019. -->
 
+{% include_relative _includes/experiences.md %}
+
 {% include_relative _includes/publications.md %}
 
 {% include_relative _includes/services.md %}
