@@ -13,7 +13,7 @@ main:
   - title: Accurate Line-Based Relative Pose Estimation with Camera Matrices
     authors: <strong>Peihong Yu</strong>, Cen Wang, Zhirui Wang, Jingyi Yu, Laurent Kneip
     conference_short: IEEE Access
-    conference: IEEE Access
+    conference: IEEE Access, 2020
     pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9086597
     code: 
     image: ./assets/img/Access.png
@@ -22,7 +22,7 @@ main:
   - title: Ray Space Features for Plenoptic Structure-from-Motion
     authors: Yingliang Zhang, <strong>Peihong Yu</strong>, Wei Yang, Yuanxi Ma, Jingyi Yu
     conference_short: ICCV
-    conference: 2017 IEEE International Conference on Computer Vision (ICCV)
+    conference: IEEE International Conference on Computer Vision (ICCV), 2017
     pdf: https://openaccess.thecvf.com/content_ICCV_2017/papers/Zhang_Ray_Space_Features_ICCV_2017_paper.pdf
     code: 
     image: ./assets/img/ICCV.png
@@ -31,7 +31,7 @@ main:
   - title: The Light Field 3d Scanner
     authors: Yingliang Zhang, Zhong Li, Wei Yang, <strong>Peihong Yu</strong>, Haiting Lin, Jingyi Yu
     conference_short: ICCP
-    conference: 2017 IEEE International Conference on Computational Photography (ICCP)
+    conference: IEEE International Conference on Computational Photography (ICCP), 2017
     pdf: https://ieeexplore.ieee.org/document/7951484
     code: 
     image: ./assets/img/ICCP.png
