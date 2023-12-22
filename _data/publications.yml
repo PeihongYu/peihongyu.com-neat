@@ -4,7 +4,7 @@ main:
     authors: <strong>Peihong Yu</strong>, Bhoram Lee, Aswin Raghavan, Supun Samarasekara, Pratap Tokekar, James Zachary Hare
     conference_short: CORL Workshop
     conference: Workshop on Out-of-Distribution Generalization in Robotics at CoRL 2023
-    pdf: https://arxiv.org/pdf/2311.04740.pdf
+    pdf: https://openreview.net/forum?id=fADcJl0B0P
     code: 
     image: ./assets/img/OOD_CORL.png
     doi: https://openreview.net/forum?id=fADcJl0B0P
@@ -14,7 +14,7 @@ main:
     authors: <strong>Peihong Yu</strong>, Cen Wang, Zhirui Wang, Jingyi Yu, Laurent Kneip
     conference_short: IEEE Access
     conference: IEEE Access, 2020
-    pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9086597
+    pdf: https://ieeexplore.ieee.org/document/9086597
     code: 
     video: https://ieeexplore.ieee.org/ielx7/6287639/8948470/9086597/graphical_abstract/access-gavideo-2992505.mp4
     image: ./assets/img/Access.png
@@ -24,7 +24,7 @@ main:
     authors: Yingliang Zhang, <strong>Peihong Yu</strong>, Wei Yang, Yuanxi Ma, Jingyi Yu
     conference_short: ICCV
     conference: IEEE International Conference on Computer Vision (ICCV), 2017
-    pdf: https://openaccess.thecvf.com/content_ICCV_2017/papers/Zhang_Ray_Space_Features_ICCV_2017_paper.pdf
+    pdf: https://openaccess.thecvf.com/content_iccv_2017/html/Zhang_Ray_Space_Features_ICCV_2017_paper.html
     code: 
     image: ./assets/img/ICCV.png
     doi: https://ieeexplore.ieee.org/document/8237758
