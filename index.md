@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a PhD student in [Computer Science at University of Maryland, College Park](https://www.cs.umd.edu/), working with [Prof. Pratap Tokekar](https://tokekar.com/). 
+I am a Ph.D. student in [Computer Science at University of Maryland, College Park](https://www.cs.umd.edu/), working with [Prof. Pratap Tokekar](https://tokekar.com/). 
 
 I currently work in the field of Reinforcement Learning, mostly Multi-Agent RL. The core of my work is to address the challenges of training efficiency and generalizability, allowing autonomous agents to learn effectively and perform robustly across diverse scenarios.
 
