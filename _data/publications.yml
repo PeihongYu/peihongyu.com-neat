@@ -1,6 +1,6 @@
 main:
 
-  - title: TACTIC: Task-Agnostic Contrastive pre-Training for Inter-Agent Communication
+  - title: "TACTIC: Task-Agnostic Contrastive pre-Training for Inter-Agent Communication"
     authors: <strong>Peihong Yu</strong>, Manav Mishra, Syed Zaidi, Pratap Tokekar
     conference_short: AAMAS
     conference: The 24th International Conference on Autonomous Agents and Multi-Agent Systems
@@ -9,7 +9,7 @@ main:
     image: ./assets/img/TACTIC.png
     doi: https://openreview.net/forum?id=nhuwP65eoW
 
-  - title: Beyond Joint Demonstrations: Personalized Expert Guidance for Efficient Multi-Agent Reinforcement Learning
+  - title: "Beyond Joint Demonstrations: Personalized Expert Guidance for Efficient Multi-Agent Reinforcement Learning"
     authors: <strong>Peihong Yu</strong>, Manav Mishra, Alec Koppel, Carl Busart, Priya Narayan, Dinesh Manocha, Amrit Singh Bedi, Pratap Tokekar
     conference_short: TMLR
     conference: Transactions on Machine Learning Research, 2025
