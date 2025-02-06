@@ -21,7 +21,7 @@ main:
   - title: Enhancing Multi-Agent Coordination through Common Operating Picture Integration
     authors: <strong>Peihong Yu</strong>, Bhoram Lee, Aswin Raghavan, Supun Samarasekara, Pratap Tokekar, James Zachary Hare
     conference_short: CORL Workshop
-    conference: Workshop on Out-of-Distribution Generalization in Robotics at CoRL 2023
+    conference: Workshop on Out-of-Distribution Generalization in Robotics at CoRL, 2023
     pdf: https://openreview.net/forum?id=fADcJl0B0P
     code: 
     image: ./assets/img/OOD_CORL.png
