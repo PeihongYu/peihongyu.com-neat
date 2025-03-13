@@ -1,12 +1,21 @@
 main:
 
+  - title: "Learning with Less Effort: Efficient Training and Generalization in (Multi-)Robot Systems"
+    authors: <strong>Peihong Yu</strong>
+    conference_short: DC@AAMAS 2025
+    conference: Doctoral Consortium @ AAMAS, 2025
+    pdf: 
+    code: 
+    image: ./assets/img/papers/2025_AAMAS_DC.png
+    doi: 
+
   - title: "TACTIC: Task-Agnostic Contrastive pre-Training for Inter-Agent Communication"
     authors: <strong>Peihong Yu</strong>, Manav Mishra, Syed Zaidi, Pratap Tokekar
     conference_short: AAMAS 2025
     conference: The 24th International Conference on Autonomous Agents and Multi-Agent Systems, 2025
     pdf: https://openreview.net/forum?id=nhuwP65eoW
     code: 
-    image: ./assets/img/TACTIC.png
+    image: ./assets/img/papers/2025_TACTIC.png
     doi: https://openreview.net/forum?id=nhuwP65eoW
 
   - title: "Beyond Joint Demonstrations: Personalized Expert Guidance for Efficient Multi-Agent Reinforcement Learning"
@@ -15,7 +24,7 @@ main:
     conference: Transactions on Machine Learning Research, 2025
     pdf: https://openreview.net/forum?id=kzPNHQ8ByY
     code: 
-    image: ./assets/img/PegMARL.png
+    image: ./assets/img/papers/2025_PegMARL.png
     doi: https://openreview.net/forum?id=kzPNHQ8ByY
 
   - title: Enhancing Multi-Agent Coordination through Common Operating Picture Integration
@@ -24,7 +33,7 @@ main:
     conference: Workshop on Out-of-Distribution Generalization in Robotics at CoRL, 2023
     pdf: https://openreview.net/forum?id=fADcJl0B0P
     code: 
-    image: ./assets/img/OOD_CORL.png
+    image: ./assets/img/papers/2023_OOD_CORL.png
     doi: https://openreview.net/forum?id=fADcJl0B0P
     # notes: Early Accept
 
@@ -35,7 +44,7 @@ main:
     pdf: https://ieeexplore.ieee.org/document/9086597
     code: 
     video: https://ieeexplore.ieee.org/ielx7/6287639/8948470/9086597/graphical_abstract/access-gavideo-2992505.mp4
-    image: ./assets/img/Access.png
+    image: ./assets/img/papers/2020_Access.png
     doi: https://ieeexplore.ieee.org/document/9086597
 
   - title: Ray Space Features for Plenoptic Structure-from-Motion
@@ -44,7 +53,7 @@ main:
     conference: IEEE International Conference on Computer Vision (ICCV), 2017
     pdf: https://openaccess.thecvf.com/content_iccv_2017/html/Zhang_Ray_Space_Features_ICCV_2017_paper.html
     code: 
-    image: ./assets/img/ICCV.png
+    image: ./assets/img/papers/2017_ICCV.png
     doi: https://ieeexplore.ieee.org/document/8237758
 
   - title: The Light Field 3d Scanner
@@ -53,5 +62,5 @@ main:
     conference: IEEE International Conference on Computational Photography (ICCP), 2017
     pdf: https://ieeexplore.ieee.org/document/7951484
     code: 
-    image: ./assets/img/ICCP.png
+    image: ./assets/img/papers/2017_ICCP.png
     doi: https://ieeexplore.ieee.org/document/7951484
