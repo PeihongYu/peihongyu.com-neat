@@ -7,7 +7,7 @@ main:
     pdf: https://openreview.net/forum?id=ww7JqIf494
     code: 
     image: ./assets/img/preprints/2025_sketch2skill.png
-    doi: 
+    doi: https://openreview.net/forum?id=ww7JqIf494
 
 
   - title: "Towards Scalable General Utility Reinforcement Learning: Occupancy Approximation, Sample Complexity and Global Optimality"
@@ -17,7 +17,7 @@ main:
     pdf: https://arxiv.org/abs/2410.04108
     code: 
     image: ./assets/img/preprints/2024_RLGU.png
-    doi: 
+    doi: https://arxiv.org/abs/2410.04108
 
 
   - title: "Insta-RS: Instance-wise Randomized Smoothing for Improved Robustness and Accuracy"
@@ -27,4 +27,4 @@ main:
     pdf: https://arxiv.org/abs/2103.04436v3
     code: 
     image: ./assets/img/preprints/2021_insta-rs.png
-    doi: 
+    doi: https://arxiv.org/abs/2103.04436v3
