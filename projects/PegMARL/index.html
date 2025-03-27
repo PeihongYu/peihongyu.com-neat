@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
+  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beyond Joint Demonstrations: Personalized Expert Guidance for Efficient Multi-Agent Reinforcement Learning</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://peihongyu.com">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+
+      <!-- <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More Research
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://hypernerf.github.io">
+            HyperNeRF
+          </a>
+          <a class="navbar-item" href="https://nerfies.github.io">
+            Nerfies
+          </a>
+          <a class="navbar-item" href="https://latentfusion.github.io">
+            LatentFusion
+          </a>
+          <a class="navbar-item" href="https://photoshape.github.io">
+            PhotoShape
+          </a>
+        </div>
+      </div> -->
+    </div>
+
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Beyond Joint Demonstrations:<br>Personalized Expert Guidance for Efficient Multi-Agent Reinforcement Learning</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://peihongyu.com/">Peihong Yu</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=PwYQNXoAAAAJ&hl=en">Manav Mishra</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=8ClxyjIAAAAJ&hl=en">Alec Koppel</a><sup>3</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://ieeexplore.ieee.org/author/37089281255">Carl Busart</a><sup>4</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=Za8YrUsAAAAJ&hl=en">Priya Narayan</a><sup>4</sup>,
+            </span>
+            <br>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=X08l_4IAAAAJ&hl=en">Dinesh Manocha</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=91WLA6QAAAAJ&hl=en">Amrit Bedi</a><sup>5</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=FKAovywAAAAJ&hl=en">Pratap Tokekar</a><sup>1</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>University of Maryland,</span>
+            <span class="author-block"><sup>2</sup>IISER Bhopal,</span>
+            <span class="author-block"><sup>3</sup>JP Morgan Chase & Co,</span>
+            <br>
+            <span class="author-block"><sup>4</sup>DEVCOM Army Research Laboratory,</span>
+            <span class="author-block"><sup>5</sup>University of Central Florida</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://openreview.net/forum?id=kzPNHQ8ByY"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2403.08936"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <!-- <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span> -->
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://openreview.net/forum?id=kzPNHQ8ByY"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <!-- Dataset Link. -->
+              <!-- <span class="link-block">
+                <a href="https://github.com/google/nerfies/releases/tag/0.1"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a>
+              </span> -->
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img id="teaser" src="./static/images/teasor.png" style="height: auto; width: 70%; max-width: 100%; display: block; margin-left: auto; margin-right: auto;">
+      <h2 class="subtitle has-text-centered" style="font-family: 'Roboto', sans-serif; font-size: 1.05rem;">
+        PegMARL: An efficient MARL approach that leverages personalized agent demonstrations  instead of costly joint ones. <br>
+        While traditional methods require coordinated multi-agent demonstrations, PegMARL achieves strong performance using 
+        only single-agent examples, significantly reducing demonstration collection overhead. 
+        It can also effectively utilize joint demonstrations from mixed sources, offering greater flexibility for multi-agent reinforcement learning.
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Multi-Agent Reinforcement Learning (MARL) algorithms face the challenge of efficient exploration due to the exponential increase 
+            in the size of the joint state-action space.  While demonstration-guided learning has proven beneficial in single-agent settings, 
+            its direct applicability to MARL is hindered by the practical difficulty of obtaining joint expert demonstrations. 
+          </p>
+          <p>
+            In this work, we introduce a novel concept of <i>personalized expert demonstrations</i>, tailored for each individual agent or, 
+            more broadly, each individual type of agent within a heterogeneous team. These demonstrations solely pertain to single-agent 
+            behaviors and how each agent can achieve personal goals without encompassing any cooperative elements, thus naively imitating 
+            them will not achieve cooperation due to potential conflicts. 
+          </p>
+          <p>
+            To this end, we propose an approach that <i>selectively</i> utilizes personalized expert demonstrations as guidance and allows 
+            agents to learn to cooperate, namely personalized expert-guided MARL (PegMARL). This algorithm utilizes two discriminators: 
+            the first provides incentives based on the alignment of individual agent behavior with demonstrations, and the second regulates 
+            incentives based on whether the behaviors lead to the desired outcome. 
+          </p>
+          <p>
+            We evaluate PegMARL using personalized demonstrations 
+            in both discrete and continuous environments. The results demonstrate that PegMARL learns near-optimal policies even when 
+            provided with suboptimal demonstrations and outperforms state-of-the-art MARL algorithms in solving coordinated tasks. We also 
+            showcase PegMARL’s capability of leveraging joint demonstrations in the StarCraft scenario and converging effectively even with 
+            demonstrations from non-co-trained policies.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Main content -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Motivation</h2>
+        <div class="content has-text-justified">
+          <p>
+            Current approaches to Multi-Agent Reinforcement Learning utilize joint demonstrations to accelerate policy training. However, these demonstrations must come from compatible, jointly-trained policies, creating a significant limitation in practice.
+          </p>
+        </div>
+        <div class="columns is-vcentered">
+          <div class="column">
+            <div style="height: 100%; display: flex; flex-direction: column; justify-content: center;">
+              <img src="./static/images/motivation-1.png" alt="Method overview diagram" style="width: 100%; height: 250px; object-fit: contain;">
+              <p style="font-family: 'Noto Sans', sans-serif; font-size: 0.85rem;">What does <b>compatibility</b> mean in practice? <br>In this simple scenario where agents <i>a</i> and <i>b</i> need to swap positions, compatibility ensures they choose complementary paths to avoid collision. When agent <i>a</i> takes path 1 and agent <i>b</i> takes path 2 (or vice versa), they successfully navigate around the danger zone. Joint-trained policies naturally develop this compatibility, while policies from different sources may lead to conflicting behaviors.</p>
+            </div>
+          </div>
+          <div class="column">
+            <div style="height: 100%; display: flex; flex-direction: column; justify-content: center;">
+              <img src="./static/images/motivation-2.png" alt="Motivation diagram" style="width: 100%; height: 250px; object-fit: contain;">
+              <p style="font-family: 'Noto Sans', sans-serif; font-size: 0.85rem;">Experimental results from the <a href="https://arxiv.org/abs/2206.00233">DM<sup>2</sup></a> paper: <br> The results demonstrate <b>the importance of demonstration compatibility</b>. When demonstrations come from jointly-trained policy (blue and orange curves), performances are strong. However, with mixed-source demonstrations (green and yellow curves), performances significantly degrade, highlighting the limitation of requiring compatible demonstrations.</p>
+            </div>
+          </div>
+        </div>
+        <div class="content has-text-justified">
+          <p>
+            Additionally, these methods require collecting new joint demonstrations whenever the agent configuration changes—whether in the <i>number</i> or <i>types</i> of agents—posing a major scalability challenge.
+          </p>
+        </div>
+        <div class="column">
+          <div style="height: 100%; display: flex; flex-direction: column; justify-content: center;">
+            <img src="./static/images/motivation-3.png" alt="Motivation diagram" style="width: 100%; height: 350px; object-fit: contain;">
+          </div>
+        </div>
+        <div class="content has-text-justified">
+          <p>
+            In contrast, <i>personalized demonstrations</i> focused on individual agent behaviors can be reused across different team configurations, making them more practical and adaptable for real-world applications.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Method</h2>
+        <div class="content has-text-justified">
+          <p>
+            PegMARL introduces a novel approach to Multi-Agent Reinforcement Learning that leverages <i>personalized demonstrations</i>. 
+            The key innovation is the use of single-agent demonstrations as guidance for efficient exploration while allowing agents to 
+            learn cooperative behaviors from sparse environmental feedbacks.
+          </p>
+          <p>
+            Unlike with co-trained joint demonstrations where direct distribution matching (as in <a href="https://arxiv.org/abs/2206.00233">DM<sup>2</sup></a>) works effectively, 
+            personalized demonstrations present a unique challenge — they show individual behaviors but lack cooperative elements. 
+            Simply mimicking these personalized demonstrations can lead to conflicting behaviors when multiple agents interact. 
+          </p>
+          <img src="./static/images/method-1.png" alt="Method overview diagram" style="width: 100%; height: 250px; object-fit: contain;">
+        </div>
+        <div class="content has-text-justified">
+          <p>
+            PegMARL addresses this challenge through selective distribution matching. Each agent is encouraged to match the state-action distribution 
+            of their respective personalized demonstrations, but with a crucial distinction — agents must be selective about when to follow these demonstrations.
+          </p>
+          <p>
+            The key insight, illustrated in the right example, is to consider whether the current situation allows the agent to execute similar transitions as 
+            shown in the demonstrations. The blue agent has a demonstration showing a rightward movement. In case (a), when the green agent moves downward, the 
+            blue agent can successfully move right as demonstrated. However, in case (b), when the green agent turns left, the blue agent cannot move right due 
+            to collision. This illustrates our central intuition: agents should follow demonstration guidance only when their local state transitions can match 
+            those in the demonstrations. When other agents' actions prevent such transitions, alternative behaviors must be developed.
+          </p>
+          <img src="./static/images/method-2.png" alt="Method overview diagram" style="width: 100%; height: 300px; object-fit: contain;">
+        </div>
+        <div class="content has-text-justified">
+          <p>
+            We implement this key insight through two specialized discriminators:
+            (1) A personalized behavior discriminator that evaluates local state-action pairs, providing positive incentives for actions that align with demonstrations and negative incentives for divergent ones.
+            (2) A personalized dynamics discriminator that assesses whether a local state-action pair leads to state transitions similar to those in the demonstrations, adjusting the incentive weight accordingly.
+            Together, these discriminators enable agents to selectively follow helpful demonstration behaviors while developing cooperative strategies when demonstration behaviors would conflict.
+          </p>
+          <img src="./static/images/method-3.png" alt="Method overview diagram" style="width: 100%; height: 450px; object-fit: contain;">
+        </div>
+      </div>
+    </div>
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Results</h2>
+        <div class="content has-text-justified">
+          <p>
+            We evaluate PegMARL across multiple environments including discrete and continuous control tasks. The results show that:
+          </p>
+          <ul>
+            <li>PegMARL consistently outperforms state-of-the-art decentralized MARL algorithms (<a href="https://arxiv.org/abs/2103.01955">MAPPO</a>, <a href="https://arxiv.org/abs/2206.00233">DM<sup>2</sup></a>), pure
+              multi-agent imitation learning (<a href="https://arxiv.org/abs/1807.09936">MAGAIL</a>), and reward-shaping techniques (<a href="https://arxiv.org/abs/2210.17540">ATA</a>) in terms of scalability and convergence speed,
+              and achieves robust performance even when provided with suboptimal demonstrations.</li>
+          </ul>
+        </div>
+        <div>
+          <img src="./static/images/exp1.png" alt="Motivation diagram" style="width: 100%; height: 250px; object-fit: contain;">
+          <p style="font-family: 'Noto Sans', sans-serif; font-size: 0.85rem;">Learning curves of PegMARL versus other baseline methods under the lava scenario (discrete).</p>
+        </div>
+        <div>
+          <img src="./static/images/exp2.png" alt="Motivation diagram" style="width: 100%; height: 220px; object-fit: contain;">
+          <p style="font-family: 'Noto Sans', sans-serif; font-size: 0.85rem;">Learning curves of PegMARL versus other baseline methods under the lava scenario (discrete).</p>
+        </div>
+        <div>
+          <img src="./static/images/exp3.png" alt="Motivation diagram" style="width: 100%; height: 220px; object-fit: contain;">
+          <p style="font-family: 'Noto Sans', sans-serif; font-size: 0.85rem;">Learning curves of PegMARL versus other baseline methods under the modified cooperative navigation scenario (continuous).</p>
+        </div>
+        <div class="content has-text-justified">
+          <ul>
+            <li>Beyond personalized demonstrations, PegMARL effectively utilizes joint demonstrations from both co-trained and non-co-trained policies in complex scenarios 
+              like StarCraft, where other methods struggle with mixed demonstrations.</li>
+          </ul>
+        </div>
+        <div>
+          <img src="./static/images/exp4.png" alt="Motivation diagram" style="width: 100%; height: 280px; object-fit: contain;">
+          <p style="font-family: 'Noto Sans', sans-serif; font-size: 0.85rem;">Learning curves of PegMARL versus <a href="https://arxiv.org/abs/2206.00233">DM<sup>2</sup></a> 
+            under the SMAC scenarios. The suffix “diff” in the legend indicates that the joint demonstrations used are sampled from non-co-trained policies.
+            Otherwise, the demonstrations are sampled from co-trained policies.</p>
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- Paper video. -->
+    <!-- <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div> -->
+    <!--/ Paper video. -->
+  </div>
+</section>
+
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{
+      yu2025beyond,
+      title={Beyond Joint Demonstrations: Personalized Expert Guidance for Efficient Multi-Agent Reinforcement Learning},
+      author={Peihong Yu and Manav Mishra and Alec Koppel and Carl Busart and Priya Narayan and Dinesh Manocha and Amrit Singh Bedi and Pratap Tokekar},
+      journal={Transactions on Machine Learning Research},
+      issn={2835-8856},
+      year={2025},
+      url={https://openreview.net/forum?id=kzPNHQ8ByY},
+      note={}
+      }</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="./static/videos/nerfies_paper.pdf">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This means you are free to borrow the <a
+              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
+            we just ask that you link back to this page in the footer.
+            Please remember to remove the analytics code included in the header of the website which
+            you do not want on your website.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

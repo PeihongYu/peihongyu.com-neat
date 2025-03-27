@@ -17,13 +17,15 @@ main:
     code: 
     image: ./assets/img/papers/2025_TACTIC.png
     doi: https://openreview.net/forum?id=nhuwP65eoW
+    notes: tests
 
   - title: "Beyond Joint Demonstrations: Personalized Expert Guidance for Efficient Multi-Agent Reinforcement Learning"
     authors: <strong>Peihong Yu</strong>, Manav Mishra, Alec Koppel, Carl Busart, Priya Narayan, Dinesh Manocha, Amrit Singh Bedi, Pratap Tokekar
     conference_short: TMLR 2025
     conference: Transactions on Machine Learning Research, 2025
     pdf: https://openreview.net/forum?id=kzPNHQ8ByY
-    code: 
+    page: https://peihongyu.com/projects/PegMARL/
+    code: https://openreview.net/forum?id=kzPNHQ8ByY
     image: ./assets/img/papers/2025_PegMARL.png
     doi: https://openreview.net/forum?id=kzPNHQ8ByY
 
@@ -35,7 +37,6 @@ main:
     code: 
     image: ./assets/img/papers/2023_OOD_CORL.png
     doi: https://openreview.net/forum?id=fADcJl0B0P
-    # notes: Early Accept
 
   - title: Accurate Line-Based Relative Pose Estimation with Camera Matrices
     authors: <strong>Peihong Yu</strong>, Cen Wang, Zhirui Wang, Jingyi Yu, Laurent Kneip
