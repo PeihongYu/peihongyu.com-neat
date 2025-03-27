@@ -17,7 +17,7 @@ main:
     code: 
     image: ./assets/img/papers/2025_TACTIC.png
     doi: https://openreview.net/forum?id=nhuwP65eoW
-    notes: tests
+    notes: 
 
   - title: "Beyond Joint Demonstrations: Personalized Expert Guidance for Efficient Multi-Agent Reinforcement Learning"
     authors: <strong>Peihong Yu</strong>, Manav Mishra, Alec Koppel, Carl Busart, Priya Narayan, Dinesh Manocha, Amrit Singh Bedi, Pratap Tokekar
