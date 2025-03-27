@@ -4,11 +4,19 @@ main:
     authors: <strong>Peihong Yu*</strong>, Amisha Bhaskar*, Anukriti Singh, Zahiruddin Mahammad, and Pratap Tokekar.
     conference_short: Preprint
     conference: 
-    pdf: https://openreview.net/forum?id=ww7JqIf494
+    pdf: https://arxiv.org/abs/2503.11918v1
     code: 
     image: ./assets/img/preprints/2025_sketch2skill.png
-    doi: https://openreview.net/forum?id=ww7JqIf494
+    doi: https://arxiv.org/abs/2503.11918v1
 
+  - title: "VARP: Reinforcement Learning from Vision-Language Model Feedback with Agent Regularized Preferences"
+    authors: Anukriti Singh, Amisha Bhaskar, <strong>Peihong Yu</strong>, Souradip Chakraborty, Ruthwik Dasyam, Amrit Bedi, Pratap Tokekar.
+    conference_short: Preprint
+    conference: 
+    pdf: https://arxiv.org/abs/2503.13817v1
+    code: 
+    image: ./assets/img/preprints/2025_VARP.png
+    doi: https://arxiv.org/abs/2503.13817v1
 
   - title: "Towards Scalable General Utility Reinforcement Learning: Occupancy Approximation, Sample Complexity and Global Optimality"
     authors: Anas Barakat, Souradip Chakraborty, <strong>Peihong Yu</strong>, Pratap Tokekar, Amrit Singh Bedi.
