@@ -6,7 +6,7 @@ main:
     conference: "Robotics: Science and Systems, 2025"
     pdf: https://arxiv.org/abs/2503.11918v1
     code: 
-    image: ./assets/img/preprints/2025_sketch2skill.png
+    image: ./assets/img/papers/2025_sketch2skill.png
     doi: https://arxiv.org/abs/2503.11918v1
 
   - title: "Learning with Less Effort: Efficient Training and Generalization in (Multi-)Robot Systems"
