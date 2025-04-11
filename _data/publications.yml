@@ -1,5 +1,14 @@
 main:
 
+  - title: "Sketch-to-Skill: Bootstrapping Robot Learning with Human Drawn Trajectory Sketches"
+    authors: <strong>Peihong Yu*</strong>, Amisha Bhaskar*, Anukriti Singh, Zahiruddin Mahammad, and Pratap Tokekar.
+    conference_short: RSS 2025
+    conference: "Robotics: Science and Systems, 2025"
+    pdf: https://arxiv.org/abs/2503.11918v1
+    code: 
+    image: ./assets/img/preprints/2025_sketch2skill.png
+    doi: https://arxiv.org/abs/2503.11918v1
+
   - title: "Learning with Less Effort: Efficient Training and Generalization in (Multi-)Robot Systems"
     authors: <strong>Peihong Yu</strong>
     conference_short: DC@AAMAS 2025
