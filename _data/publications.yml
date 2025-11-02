@@ -24,7 +24,7 @@ main:
     pdf: https://www.ifaamas.org/Proceedings/aamas2025/pdfs/p2994.pdf
     code: 
     image: ./assets/img/papers/2025_AAMAS_DC.png
-    doi: 
+    doi: https://www.ifaamas.org/Proceedings/aamas2025/pdfs/p2994.pdf
 
   - title: "TACTIC: Task-Agnostic Contrastive pre-Training for Inter-Agent Communication"
     authors: <strong>Peihong Yu</strong>, Manav Mishra, Syed Zaidi, Pratap Tokekar
