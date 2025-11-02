@@ -1,4 +1,12 @@
 main:
+  - title: "On the Global Optimality of Policy Gradient Methods in General Utility Reinforcement Learning"
+    authors: Anas Barakat, Souradip Chakraborty, <strong>Peihong Yu</strong>, Pratap Tokekar, Amrit Singh Bedi.
+    conference_short: NeurIPS 2025
+    conference: The Thirty-ninth Annual Conference on Neural Information Processing Systems, 2025
+    pdf: https://arxiv.org/abs/2410.04108
+    code: 
+    image: ./assets/img/preprints/2024_RLGU.png
+    doi: https://arxiv.org/abs/2410.04108
 
   - title: "Sketch-to-Skill: Bootstrapping Robot Learning with Human Drawn Trajectory Sketches"
     authors: <strong>Peihong Yu*</strong>, Amisha Bhaskar*, Anukriti Singh, Zahiruddin Mahammad, and Pratap Tokekar.

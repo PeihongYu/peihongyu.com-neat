@@ -3,6 +3,15 @@
 <div style="display: flex; align-items: center; flex-wrap: wrap;">
 
   <div style="display: flex; align-items: center; margin-bottom: 20px; margin-right: 50px;">
+    <img src="./assets/img/companies/xpeng_image.png" alt="XPeng Logo" style="width: 100px; margin-right: 10px;">
+    <div style="flex-grow: 1;">
+      <div style="font-weight: bold;">XPeng</div>
+      <div style="font-style: italic;">Senior MLE</div>
+      <div style="color: grey;">Aug. 2025 - Present</div>
+    </div>
+  </div>
+
+  <div style="display: flex; align-items: center; margin-bottom: 20px; margin-right: 50px;">
     <img src="./assets/img/companies/SRI_image.jpg" alt="SRI Logo" style="width: 100px; margin-right: 0px;">
     <div style="flex-grow: 1;">
       <div style="font-weight: bold;">SRI International</div>

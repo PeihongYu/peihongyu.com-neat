@@ -9,16 +9,6 @@ main:
     image: ./assets/img/preprints/2025_VARP.png
     doi: https://arxiv.org/abs/2503.13817v1
 
-  - title: "Towards Scalable General Utility Reinforcement Learning: Occupancy Approximation, Sample Complexity and Global Optimality"
-    authors: Anas Barakat, Souradip Chakraborty, <strong>Peihong Yu</strong>, Pratap Tokekar, Amrit Singh Bedi.
-    conference_short: Preprint
-    conference: 
-    pdf: https://arxiv.org/abs/2410.04108
-    code: 
-    image: ./assets/img/preprints/2024_RLGU.png
-    doi: https://arxiv.org/abs/2410.04108
-
-
   - title: "Insta-RS: Instance-wise Randomized Smoothing for Improved Robustness and Accuracy"
     authors: Chen Chen, Kezhi Kong, <strong>Peihong Yu</strong>, Juan Luque, Tom Goldstein, Furong Huang.
     conference_short: Preprint
