@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I'm a Senior Machine Learning Engineer at XPeng, where I work on reinforcement learning for end-to-end autonomous driving systems.
+I'm a Senior Machine Learning Engineer at XMotors.AI, where I work on reinforcement learning for end-to-end autonomous driving systems.
 
 I completed my Ph.D. in Computer Science at the [University of Maryland, College Park](https://www.cs.umd.edu/), advised by [Prof. Pratap Tokekar](https://tokekar.com/). My research focused on Reinforcement Learning, particularly Multi-Agent RL, addressing fundamental challenges in training efficiency and generalizability. 
 
